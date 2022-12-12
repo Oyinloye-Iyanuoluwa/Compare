@@ -1,0 +1,32 @@
+* {
+    --pry-light-blue: #219ebc;
+    --pry-yellow: #ffb703;
+    --pry-orange: #fb8500;
+    --sec-orange: #d17000;
+    --Neutral-gray: #14121a;
+    --Neutral-navy-blue: #023047;
+    --Neutral-white: #ffffff;
+    --Neutral-blue: #219ebc;
+    /* Font-Size */
+    --Main-font-size: 26px;
+    /* format template */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* styling the nav bar */
+  
+  header {
+    border-bottom: 1px solid var(--pry-yellow);
+  }
+  
+  .login {
+    color: var(--pry-orange);
+  }
+  .nav-link-sign-up {
+    color: var(--pry-orange) !important;
+    border: 1px solid var(--pry-yellow);
+    padding-inline: 40px;
+    border-radius: 5px;
+  }
